@@ -1,0 +1,68 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #E55D87;  /* fallback for old browsers */
+
+}
+header
+{
+    text-align: center;
+    margin: 15px;
+    background: #FFF;
+}
+header h2
+{
+    font-size: 32px;
+    border: dashed 1px;
+    border-color: lightgray;
+    margin: 5px;
+    padding: 5px;
+}
+main
+{
+    margin: 15px 0 0 10%;
+    padding: 7px;
+    font-size: 18px;
+}
+#activator
+{
+    display: inline-block;
+    background: lime;
+    color: purple;
+    width: 120px;
+    height: 25px;
+}
+#activator:hover
+{
+    background: lightgreen;
+}
+#activator:active
+{
+    background: grey;
+}
+.list-container
+{
+    margin-left: 3%;
+    margin-top: 10px;
+    border:dotted silver 1px;
+    height: 100%;
+    background: white; 
+    display: inline-block;
+}
+.list-container ul
+{
+    list-style-type:none;
+    padding-left: 10px;
+}
+.inputContainer
+{
+    border: dotted 1px silver;
+    display: inline;
+    padding: 8px;
+    font-size : 24px;
+}
